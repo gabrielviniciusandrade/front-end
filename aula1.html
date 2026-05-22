@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FiguCopa - Loja de Figurinhas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    .hero-bg {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://source.unsplash.com/random/1920x1080/?worldcup');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- HEADER -->
+  <header class="bg-green-600 text-white py-4">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <i class="fa-solid fa-futbol text-3xl"></i>
+        <h1 class="text-3xl font-bold">FiguCopa</h1>
+      </div>
+      <nav class="flex gap-8 text-lg">
+        <a href="#" class="hover:underline">Início</a>
+        <a href="#" class="hover:underline">Produtos</a>
+        <a href="#" class="hover:underline">Pacotes</a>
+        <a href="#" class="hover:underline">Contato</a>
+      </nav>
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-cart-shopping text-2xl cursor-pointer hover:text-yellow-300"></i>
+        <span class="bg-white text-green-600 px-3 py-1 rounded-full text-sm font-bold">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-bg text-white py-32 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl font-bold mb-4">A Copa está chegando!</h2>
+      <p class="text-2xl mb-8">Complete seu álbum com as melhores figurinhas</p>
+      <button onclick="alert('Em breve! 🏆')" 
+              class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-xl px-10 py-4 rounded-full transition">
+        Ver Ofertas Especiais
+      </button>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-4xl font-bold text-center mb-12 text-green-700">Nossos Produtos</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Produto 1 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div class="bg-blue-500 h-48 flex items-center justify-center text-6xl">📦</div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold">Pacote com 7 Figurinhas</h3>
+          <p class="text-green-600 font-semibold text-xl mt-2">R$ 7,00</p>
+          <button onclick="alert('Adicionado ao carrinho! 🛒')" 
+                  class="mt-6 w-full bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 transition">
+            Adicionar ao Carrinho
+          </button>
+        </div>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div class="bg-yellow-500 h-48 flex items-center justify-center text-6xl">🔥</div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold">Pacote Premium - 50 pacotes</h3>
+          <p class="text-green-600 font-semibold text-xl mt-2">R$ 350,00</p>
+          <span class="text-sm text-red-500 font-bold">MAIS VENDIDO</span>
+          <button onclick="alert('Adicionado ao carrinho! 🛒')" 
+                  class="mt-4 w-full bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 transition">
+            Adicionar ao Carrinho
+          </button>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div class="bg-red-500 h-48 flex items-center justify-center text-6xl">🏆</div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold">Pacote Jumbo - 100 pacotes</h3>
+          <p class="text-green-600 font-semibold text-xl mt-2">R$ 700,00</p>
+          <button onclick="alert('Adicionado ao carrinho! 🛒')" 
+                  class="mt-6 w-full bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 transition">
+            Adicionar ao Carrinho
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4">FiguCopa</h2>
+      <p class="mb-6">Sua loja de figurinhas da Copa do Mundo 🌍⚽</p>
+      <p class="text-gray-400">© 2026 FiguCopa - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
