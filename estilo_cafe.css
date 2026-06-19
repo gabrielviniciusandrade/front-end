@@ -1,0 +1,32 @@
+body{
+    background-color: #a2574f;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 4px dotted black;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    }
+    h1.titulo{
+    
+    color:#6F4E37;
+    font-family: verdana;
+    text-shadow: 4px 4px 4px #D1B399;
+    font-size: 30pt;
+    text-align: center;
+    }
+    h1{
+    color: black;
+    font-family: verdana;
+    text-shadow: 2px 2px 2px #D1B399
+    }
+    h2{
+    color:black;
+    text-shadow: 2px 2px 2px #D1B399
+    }
+    img{
+    border: 4px solid #D1B399;
+    object-fit: cover;
+    transform: translateX(50%);
+    }
+    
+    p{ color: black; }
